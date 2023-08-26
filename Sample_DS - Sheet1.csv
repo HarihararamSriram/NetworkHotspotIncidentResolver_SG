@@ -1,0 +1,361 @@
+Type,Incident,Resolution
+Unauthorized Access Points,Rogue Access Points Description: Unauthorized access points set up by attackers can compromise the network's security.,"Regularly scan for rogue access points using tools like wireless intrusion detection systems (WIDS), and employ strong access controls with WPA  encryption."
+Unauthorized Access Points,Misconfigured Access Points Description: Access points with incorrect configurations can lead to security vulnerabilities.,"Implement a configuration management process, conduct regular security audits, and follow best practices for access point settings."
+Unauthorized Access Points,Insider Threats Description: Malicious actions by authorized personnel can pose serious threats to network security.,"Implement strict role-based access controls (RBAC), monitor user activities using security information and event management (SIEM) systems, and provide cybersecurity training to employees."
+Unauthorized Access Points,Weak Authentication Mechanisms Description: Inadequate authentication methods can lead to unauthorized access.,"Implement multi-factor authentication (MFA), strong password policies, and enforce regular password updates."
+Unauthorized Access Points,Credential Leakage Description: Storing credentials insecurely can result in their leakage and compromise.,"Use secure password management tools, encrypt stored credentials, and avoid hardcoding passwords in scripts or configuration files."
+Data Interception and Eavesdropping,Man-in-the-Middle Attacks Description: Attackers intercept and modify communications between two parties.,"Implement end-to-end encryption (E EE) using protocols like HTTPS, SSH, and VPNs."
+Data Interception and Eavesdropping,Unencrypted Communication Description: Transmitting data in plain text exposes it to eavesdropping.,Enforce encryption for sensitive data in transit using protocols like TLS/SSL.
+Data Interception and Eavesdropping,Weak Encryption Protocols Description: Outdated or weak encryption protocols can be exploited by attackers.,Use the latest encryption algorithms and disable deprecated protocols like SSLv
+Data Interception and Eavesdropping,Insecure Wi-Fi Connections Description: Connecting to unsecured public Wi-Fi networks can expose sensitive data.,"Avoid using open Wi-Fi networks, employ VPNs for secure connections, and configure devices not to automatically connect to unknown networks."
+Data Interception and Eavesdropping,Sniffing Attacks Description: Attackers capture network traffic to gain sensitive information.,"Use intrusion detection and prevention systems (IDPS) to detect and block sniffing attempts, and segment network traffic to limit its scope."
+Denial of Service (DoS) Attacks,Distributed DoS Attacks Description: Multiple compromised systems overwhelm network resources.,"Implement traffic filtering and rate limiting, and use DoS protection services or appliances."
+Denial of Service (DoS) Attacks,Resource Exhaustion Description: Attackers consume network resources to disrupt services.,"Regularly monitor resource utilization, implement load balancing, and use firewalls to filter traffic."
+Denial of Service (DoS) Attacks,Amplification Attacks Description: Attackers use amplification techniques to increase the impact of their attacks.,"Disable unused services, filter traffic at network borders, and update and patch vulnerable services."
+Denial of Service (DoS) Attacks,Zero-Day Exploits Description: Attackers exploit vulnerabilities before they are patched.,"Keep systems and software up to date, apply patches promptly, and implement intrusion prevention systems."
+Denial of Service (DoS) Attacks,Botnet Attacks Description: Large networks of compromised devices are used to launch attacks.,"Regularly update and patch devices, use intrusion detection systems, and employ IP reputation filtering."
+Denial of Service (DoS) Attacks,Flooding of network with excessive traffic,Implement traffic filtering and rate limiting
+Denial of Service (DoS) Attacks,Flooding of network with excessive traffic,Configure Intrusion Detection Systems (IDS)
+Denial of Service (DoS) Attacks,Flooding of network with excessive traffic,Deploy DDoS protection services
+Denial of Service (DoS) Attacks,Flooding of network with excessive traffic,Collaborate with ISPs to block malicious traffic
+Denial of Service (DoS) Attacks,Overwhelming of web server with HTTP requests, Use Content Delivery Networks (CDNs) for load balancing
+Denial of Service (DoS) Attacks,Overwhelming of web server with HTTP requests,Implement Web Application Firewalls (WAFs)
+Denial of Service (DoS) Attacks,Overwhelming of web server with HTTP requests, Utilize load balancing techniques
+Denial of Service (DoS) Attacks,Exhaustion of server resources through a SYN flood,Configure SYN cookies to protect against SYN floods
+Denial of Service (DoS) Attacks,Exhaustion of server resources through a SYN flood,Implement SYN flood protection on network devices
+Denial of Service (DoS) Attacks,Exhaustion of server resources through a SYN flood, Set up rate limiting for incoming connection requests
+Denial of Service (DoS) Attacks,Distributed attack causing multiple system overload,Monitor and block malicious IP addresses
+Denial of Service (DoS) Attacks,Distributed attack causing multiple system overload,Set up traffic analysis to detect abnormal patterns
+Denial of Service (DoS) Attacks,Distributed attack causing multiple system overload,Utilize cloud-based traffic scrubbing services
+Denial of Service (DoS) Attacks,DNS amplification attack targeting DNS servers, Configure DNS servers to prevent recursion attacks
+Denial of Service (DoS) Attacks,DNS amplification attack targeting DNS servers,Set up DNSSEC for authenticating DNS responses
+Denial of Service (DoS) Attacks,DNS amplification attack targeting DNS servers,Implement firewall rules to filter malicious queries
+Denial of Service (DoS) Attacks,Slowloris attack exploiting connection handling,Configure web server timeouts and connection limits
+Denial of Service (DoS) Attacks,Slowloris attack exploiting connection handling,Employ load balancers to distribute traffic
+Denial of Service (DoS) Attacks,Slowloris attack exploiting connection handling,Implement Web Application Firewalls (WAFs)
+Denial of Service (DoS) Attacks,Application-level attack exhausting server resources,Implement rate limiting for application requests
+Denial of Service (DoS) Attacks,Application-level attack exhausting server resources, Use CAPTCHA or other challenge-response mechanisms
+Denial of Service (DoS) Attacks,Application-level attack exhausting server resources,Regularly update and patch application vulnerabilities
+Phishing Attack,Employees receiving fake emails with malicious links, Conduct phishing awareness training for employees
+Phishing Attack,Employees receiving fake emails with malicious links,Implement email filtering and anti-phishing software
+Phishing Attack,Employees receiving fake emails with malicious links, Use domain-based message authentication (DMARC)
+Phishing Attack,Users providing sensitive information on fake websites, Educate users about identifying legitimate websites
+Phishing Attack,Users providing sensitive information on fake websites, Implement web content filtering to block malicious sites
+Phishing Attack,Users providing sensitive information on fake websites, Set up secure browsing environments with sandboxing
+Phishing Attack,Impersonation of legitimate organizations in emails, Verify sender's email domain using DKIM and SPF
+Phishing Attack,Impersonation of legitimate organizations in emails, Educate users about email spoofing techniques
+Phishing Attack,Impersonation of legitimate organizations in emails, Implement sender policy framework to prevent spoofing
+Phishing Attack,Urgent requests for financial transactions, Establish strict protocols for financial transactions
+Phishing Attack,Urgent requests for financial transactions, Implement multi-factor authentication for transactions
+Phishing Attack,Urgent requests for financial transactions, Require multiple approvals for large transfers
+Phishing Attack,Malicious attachments or links in emails, Implement advanced threat protection for email
+Phishing Attack,Malicious attachments or links in emails, Scan attachments for malware and malicious URLs
+Phishing Attack,Malicious attachments or links in emails, Isolate infected systems and investigate
+Phishing Attack,CEO fraud or executive impersonation, Implement two-step verification for executive emails
+Phishing Attack,CEO fraud or executive impersonation, Set up alerts for suspicious email activity
+Phishing Attack,CEO fraud or executive impersonation, Establish a clear process for financial transactions
+Phishing Attack,Fake job offers and credential theft, Educate job seekers about verifying job offers
+Phishing Attack,Fake job offers and credential theft, Implement email security measures for job applicants
+Phishing Attack,Fake job offers and credential theft, Monitor and block phishing domains and websites
+Phishing Attack,Impersonation of IT support requesting credentials, Establish a strict process for verifying support requests
+Phishing Attack,Impersonation of IT support requesting credentials, Provide a direct contact for IT support communication
+Phishing Attack,Impersonation of IT support requesting credentials, Educate users about legitimate support channels
+Phishing Attack,Fake account verification requests, Educate users about verifying requests before acting
+Phishing Attack,Fake account verification requests, Implement account recovery procedures
+Phishing Attack,Fake account verification requests, Enable multi-factor authentication for accounts
+Routing Protocol Flap,Frequent BGP route flaps causing network instability., Review BGP configurations for inconsistencies.
+Routing Protocol Flap,Frequent BGP route flaps causing network instability., Implement BGP route dampening to reduce flaps.
+Routing Protocol Flap,Frequent BGP route flaps causing network instability., Adjust neighbor peering timers.
+Routing Protocol Flap,Frequent BGP route flaps causing network instability., Monitor BGP route changes closely.
+Routing Protocol Flap,Frequent BGP route flaps causing network instability., Investigate and mitigate external factors causing route flaps.
+Routing Protocol Flap,OSPF adjacencies repeatedly going up and down., Verify OSPF interface settings and priorities.
+Routing Protocol Flap,OSPF adjacencies repeatedly going up and down., Check for physical issues in the network.
+Routing Protocol Flap,OSPF adjacencies repeatedly going up and down., Adjust OSPF hello and dead timers.
+Routing Protocol Flap,OSPF adjacencies repeatedly going up and down., Enable OSPF graceful restart.
+Routing Protocol Flap,OSPF adjacencies repeatedly going up and down., Implement OSPF authentication.
+Routing Protocol Flap,EIGRP neighbors frequently resetting., Review EIGRP metric settings for inconsistencies.
+Routing Protocol Flap,EIGRP neighbors frequently resetting., Check for excessive bandwidth utilization.
+Routing Protocol Flap,EIGRP neighbors frequently resetting., Adjust EIGRP hold timers.
+Routing Protocol Flap,EIGRP neighbors frequently resetting., Implement EIGRP authentication.
+Routing Protocol Flap,EIGRP neighbors frequently resetting., Consider route summarization to reduce updates.
+Routing Protocol Flap,Frequent IS-IS adjacency flaps between routers., Ensure IS-IS interface settings match on all routers.
+Routing Protocol Flap,Frequent IS-IS adjacency flaps between routers., Check for misconfigurations in IS-IS process.
+Routing Protocol Flap,Frequent IS-IS adjacency flaps between routers., Adjust IS-IS timers and priorities.
+Routing Protocol Flap,Frequent IS-IS adjacency flaps between routers., Enable IS-IS authentication.
+Routing Protocol Flap,Frequent IS-IS adjacency flaps between routers., Monitor LSPs for inconsistencies.
+Routing Protocol Flap,RIP route updates causing instability in a segment., Verify RIP version compatibility across devices.
+Routing Protocol Flap,RIP route updates causing instability in a segment., Check for broadcast storms or excessive traffic.
+Routing Protocol Flap,RIP route updates causing instability in a segment., Adjust RIP route timers.
+Routing Protocol Flap,RIP route updates causing instability in a segment., Implement route summarization in RIP.
+Routing Protocol Flap,RIP route updates causing instability in a segment., Consider migrating to a more stable routing protocol.
+Routing Protocol Flap,BGP session flapping due to BGP neighbor misconfiguration., Validate BGP neighbor configurations on both sides.
+Routing Protocol Flap,BGP session flapping due to BGP neighbor misconfiguration., Verify AS numbers and IP addresses.
+Routing Protocol Flap,BGP session flapping due to BGP neighbor misconfiguration., Implement BGP route filtering to prevent unwanted updates.
+Routing Protocol Flap,BGP session flapping due to BGP neighbor misconfiguration., Use BGP prefix-lists to filter routes.
+Routing Protocol Flap,BGP session flapping due to BGP neighbor misconfiguration., Monitor BGP logs for errors.
+Routing Protocol Flap,OSPF adjacency instability after a recent network change., Roll back recent network changes if feasible.
+Routing Protocol Flap,OSPF adjacency instability after a recent network change., Verify new network configurations for errors.
+Routing Protocol Flap,OSPF adjacency instability after a recent network change., Check for area mismatches in OSPF settings.
+Routing Protocol Flap,OSPF adjacency instability after a recent network change., Analyze OSPF LSDB for discrepancies.
+Routing Protocol Flap,OSPF adjacency instability after a recent network change., Consider redistributing routes cautiously.
+Routing Protocol Flap,EIGRP route instability due to excessive bandwidth usage., Investigate and resolve bandwidth-hungry applications.
+Routing Protocol Flap,EIGRP route instability due to excessive bandwidth usage., Implement Quality of Service (QoS) to prioritize EIGRP traffic.
+Routing Protocol Flap,EIGRP route instability due to excessive bandwidth usage., Consider route summarization to reduce EIGRP updates.
+Routing Protocol Flap,EIGRP route instability due to excessive bandwidth usage., Monitor EIGRP metrics for changes.
+Routing Protocol Flap,EIGRP route instability due to excessive bandwidth usage., Upgrade network hardware if necessary.
+Routing Protocol Flap,IS-IS adjacency problems after a recent IOS upgrade., Verify compatibility between IS-IS versions.
+Routing Protocol Flap,IS-IS adjacency problems after a recent IOS upgrade., Revert
+Routing Protocol Flap,IS-IS adjacency problems after a recent IOS upgrade., Check for any known IS-IS bugs related to the upgrade.
+Routing Protocol Flap,IS-IS adjacency problems after a recent IOS upgrade., Review IS-IS router type settings.
+Routing Protocol Flap,IS-IS adjacency problems after a recent IOS upgrade., Recycle IS-IS on affected routers.
+Routing Protocol Flap,Incident   : Frequent RIP route changes causing network disruptions., Evaluate the necessity of using RIP and consider alternative routing protocols.
+Routing Protocol Flap,Incident   : Frequent RIP route changes causing network disruptions., Implement route filtering to control RIP updates.
+Routing Protocol Flap,Incident   : Frequent RIP route changes causing network disruptions., Optimize RIP timers for the network size.
+Routing Protocol Flap,Incident   : Frequent RIP route changes causing network disruptions., Monitor RIP route changes closely.
+Routing Protocol Flap,Incident   : Frequent RIP route changes causing network disruptions., Segment the network to reduce RIP updates.
+Router Misconfiguration,Improper firewall rules leading to unintended access,"Audit and review firewall rules regularly, Implement rule validation before applying changes, Document firewall rule changes accurately"
+Router Misconfiguration,Network segment isolation failure resulting in unauthorized communication,"Use VLANs to segregate network segments, Configure access control lists (ACLs), Implement router hardening"
+Router Misconfiguration,Incorrect routing table entries causing traffic to take wrong paths,"Review and update routing table entries regularly, Implement dynamic routing protocols, Monitor routes"
+Router Misconfiguration,Lack of encryption on wireless networks leading to unauthorized access,"Implement WPA3 encryption for Wi-Fi, Disable outdated encryption protocols, Use strong pre-shared keys"
+Router Misconfiguration,Exposed management interfaces due to weak access controls,"Disable unnecessary management interfaces, Use strong authentication for access, Apply access restrictions"
+Router Misconfiguration,Default passwords on router accounts resulting in unauthorized access,"Change default passwords immediately, Implement strong passwords and authentication mechanisms"
+Router Misconfiguration,Misconfigured Quality of Service (QoS) settings causing traffic prioritization issues,"Review and adjust QoS settings based on network requirements, Test QoS configurations in a controlled environment"
+Router Misconfiguration,Improper NAT settings leading to connectivity problems,"Verify NAT configurations for correctness, Implement port forwarding as needed, Monitor NAT logs"
+Router Misconfiguration,Unpatched firmware or software versions exposing vulnerabilities,"Regularly update router firmware and software, Implement patch management procedures, Monitor security advisories"
+Router Misconfiguration,Open administrative interfaces accessible from the internet,"Disable remote administration unless necessary, Use VPNs or SSH for remote access, Apply IP filters"
+Router Misconfiguration,Inadequate access controls allowing unauthorized device connections,"Implement MAC address filtering, Use IEEE 802.for port-based access control, Monitor device connections"
+Router Misconfiguration,Improper subnet configurations causing IP conflicts,"Review and correct subnet settings, Monitor IP allocation and conflicts, Use DHCP for IP management"
+Router Misconfiguration,Incorrect time settings leading to authentication failures,"Synchronize router time with reliable time sources, Implement NTP for accurate time synchronization"
+Router Misconfiguration,Misconfigured Dynamic Host Configuration Protocol (DHCP) settings leading to IP address conflicts,"Adjust DHCP lease time and pool size, Implement DHCP snooping to prevent rogue DHCP servers"
+Router Misconfiguration,Failure to update default administrative account passwords,"Change default account passwords immediately, Implement strong authentication mechanisms"
+Router Misconfiguration,Overlapping IP address ranges causing routing issues,"Review and adjust IP address allocation and routing configurations, Use separate IP ranges for segments"
+Router Misconfiguration,Open ports and services that expose the router to attacks,"Close unnecessary ports and services, Use access control lists (ACLs) to restrict access to the router"
+Router Misconfiguration,Misconfigured VPN settings leading to connection failures,"Review and adjust VPN configurations, Implement proper encryption and authentication protocols"
+Router Misconfiguration,Excessive logging settings causing performance issues,"Adjust logging settings based on logging requirements, Store logs on an external server for scalability"
+Router Misconfiguration,Improper Network Address Translation (NAT) mappings leading to communication problems,"Review and correct NAT mappings, Implement NAT overload for multiple internal devices"
+Power Outage,Incident Total power outage in the data center.,Check power source connections and circuit breakers.
+Power Outage,Incident Total power outage in the data center.,Verify the backup generator is operational.
+Power Outage,Incident Total power outage in the data center.,Prioritize critical systems for power restoration.
+Power Outage,Incident Total power outage in the data center.,Establish communication protocols during outages.
+Power Outage,Incident Total power outage in the data center.,Conduct regular generator maintenance.
+Power Outage,Incident Partial power outage affecting network switches.,Identify the affected switches and circuits.
+Power Outage,Incident Partial power outage affecting network switches.,Re-route critical traffic through unaffected switches.
+Power Outage,Incident Partial power outage affecting network switches.,Notify affected users and provide status updates.
+Power Outage,Incident Partial power outage affecting network switches.,Investigate the cause and prevent recurrence.
+Power Outage,Incident Partial power outage affecting network switches.,Implement redundant power supplies where possible.
+Power Outage,Incident Power surge damages network equipment.,Isolate affected equipment and power it down.
+Power Outage,Incident Power surge damages network equipment.,Inspect and repair or replace damaged components.
+Power Outage,Incident Power surge damages network equipment.,Install surge protectors and voltage regulators.
+Power Outage,Incident Power surge damages network equipment.,Educate staff about power protection measures.
+Power Outage,Incident Power surge damages network equipment.,Regularly test surge protection devices.
+Power Outage,Incident Brownout causing intermittent network disruptions.,Monitor voltage levels and trends during brownouts.
+Power Outage,Incident Brownout causing intermittent network disruptions.,Implement uninterruptible power supplies (UPS).
+Power Outage,Incident Brownout causing intermittent network disruptions.,Prioritize essential network services.
+Power Outage,Incident Brownout causing intermittent network disruptions.,Consider relocating critical equipment to a stable power source.
+Power Outage,Incident Brownout causing intermittent network disruptions.,Educate staff on recognizing and reporting brownouts.
+Power Outage,Incident Multiple short power interruptions in a day.,Investigate and resolve the root cause of interruptions.
+Power Outage,Incident Multiple short power interruptions in a day.,Deploy power monitoring and alerting systems.
+Power Outage,Incident Multiple short power interruptions in a day.,Utilize battery backup for critical devices.
+Power Outage,Incident Multiple short power interruptions in a day.,Educate staff on safe power cycling procedures.
+Power Outage,Incident Multiple short power interruptions in a day.,Investigate alternative power providers or sources.
+Power Outage,Incident Sudden power loss during a severe storm.,Ensure employee safety during the storm.
+Power Outage,Incident Sudden power loss during a severe storm.,Safely power down critical equipment.
+Power Outage,Incident Sudden power loss during a severe storm.,Activate backup power sources if available.
+Power Outage,Incident Sudden power loss during a severe storm.,Communicate with staff and stakeholders about the situation.
+Power Outage,Incident Sudden power loss during a severe storm.,Prepare emergency power restoration procedures.
+Power Outage,Incident Power failure due to utility maintenance work.,Coordinate with utility providers for outage schedules.
+Power Outage,Incident Power failure due to utility maintenance work.,Notify affected parties about planned outages.
+Power Outage,Incident Power failure due to utility maintenance work.,Activate backup power systems during outages.
+Power Outage,Incident Power failure due to utility maintenance work.,Plan for alternative work locations during extended outages.
+Power Outage,Incident Power failure due to utility maintenance work.,Verify the utility's adherence to maintenance schedules.
+Power Outage,Incident Power loss due to electrical infrastructure failure.,Identify the nature and location of the infrastructure failure.
+Power Outage,Incident Power loss due to electrical infrastructure failure.,Contact utility companies and emergency services for assistance.
+Power Outage,Incident Power loss due to electrical infrastructure failure.,Safely shut down equipment to prevent damage.
+Power Outage,Incident Power loss due to electrical infrastructure failure.,Establish a temporary power source if possible.
+Power Outage,Incident Power loss due to electrical infrastructure failure.,Document the incident and conduct post-failure analysis.
+Power Outage,Incident Power outage during peak business hours.,Implement redundant power sources for critical areas.
+Power Outage,Incident Power outage during peak business hours.,Have a disaster recovery plan in place for data backup.
+Power Outage,Incident Power outage during peak business hours.,Communicate with customers and clients about the situation.
+Power Outage,Incident Power outage during peak business hours.,Restore power as quickly as possible using backup generators.
+Power Outage,Incident Power outage during peak business hours.,Perform a post-outage analysis to prevent future occurrences.
+Power Outage,Power fluctuation damages network equipment.,Install voltage stabilizers and surge protectors.
+Power Outage,Power fluctuation damages network equipment.,Verify the grounding system in the data center.
+Power Outage,Power fluctuation damages network equipment.,Implement redundant power supplies and backup devices.
+Power Outage,Power fluctuation damages network equipment.,Educate staff about recognizing and reporting power issues.
+Power Outage,Power fluctuation damages network equipment.,Regularly test and maintain power protection systems.
+Network Device Overload,Network switch experiencing excessive traffic causing performance degradation,"Monitor network traffic and identify bottlenecks, Implement VLANs to segregate traffic, Upgrade switch capacity if needed"
+Network Device Overload,Routers or switches overloaded due to broadcast storms,"Implement broadcast storm controls, Review network architecture for redundancy, Segment network traffic"
+Network Device Overload,Network devices overwhelmed by Distributed Denial of Service (DDoS) attack,"Deploy DDoS protection services, Implement traffic filtering and rate limiting, Collaborate with ISPs"
+Network Device Overload,High demand on a server causing server overload and impacting network connectivity,"Load balance server traffic, Optimize server resources and configurations, Use caching mechanisms"
+Network Device Overload,Intense traffic due to video streaming or file sharing applications,"Implement Quality of Service (QoS) rules, Monitor bandwidth usage and restrict non-essential traffic"
+Network Device Overload,Inefficient routing causing uneven distribution of traffic,"Review and adjust routing configurations, Implement dynamic routing protocols, Balance traffic load"
+Network Device Overload,Firewall overload due to excessive connection requests or rule misconfigurations,"Audit and optimize firewall rules, Implement rate limiting for connection requests, Use intrusion detection systems"
+Network Device Overload,Network intrusion detection system generating excessive false alarms,"Fine-tune intrusion detection system settings, Regularly update intrusion detection signatures"
+Network Device Overload,Network printers causing congestion due to multiple print jobs,"Implement print queue management, Limit print jobs during high traffic periods"
+Network Device Overload,Voice over IP (VoIP) system overload leading to call quality issues,"Implement QoS policies for VoIP traffic, Monitor call quality and bandwidth usage, Optimize codecs"
+Network Device Overload,Network server experiencing high CPU usage due to software bugs or resource-intensive applications,"Identify and fix software bugs and performance issues, Optimize resource usage and application configurations, Implement server load balancing and clustering"
+Network Device Overload,Wireless access points overwhelmed by a high number of concurrent connections,"Implement load balancing across multiple access points, Optimize wireless channels and signal strength, Limit the number of simultaneous connections"
+Network Device Overload,Network storage devices experiencing high I/O operations causing slowdowns,"Optimize storage performance through RAID configurations, Implement caching mechanisms for frequently accessed data, Monitor and manage storage capacity"
+Network Device Overload,Excessive use of network protocols causing increased latency and communication delays,"Implement traffic shaping to prioritize critical traffic, Monitor and analyze network protocols for inefficiencies, Upgrade network equipment if necessary"
+Network Device Overload,Cloud-based applications consuming excessive bandwidth leading to network congestion,"Implement bandwidth monitoring and allocation policies, Optimize application traffic through compression or caching, Set usage limits for cloud applications"
+Network Device Overload,Network devices unable to handle increased traffic during peak usage periods,"Monitor network traffic patterns and peak usage times, Implement network scaling and load balancing mechanisms, Upgrade network infrastructure as needed"
+Firewall Misconfiguration,Legitimate traffic being blocked by overly restrictive firewall rules,"Review and adjust firewall rules, Implement rule validation and testing procedures, Monitor for blocked traffic and adjust rules as needed"
+Firewall Misconfiguration,Unauthorized access allowed due to misconfigured firewall rules,"Audit and update firewall rules regularly, Implement default-deny approach and specific allow rules, Use intrusion detection systems (IDS)"
+Firewall Misconfiguration,Misconfigured NAT rules causing network communication issues,"Verify and adjust NAT configurations, Monitor NAT logs for errors and inconsistencies, Implement port forwarding as needed"
+Firewall Misconfiguration,Excessive exposure of internal resources due to improper DMZ configuration,"Review DMZ configuration and ensure proper segmentation, Implement network segmentation and access controls, Regularly audit DMZ configuration"
+Firewall Misconfiguration,Firewall allowing unauthorized protocols and services through due to rule mismanagement,"Establish strict change management processes for rule changes, Monitor rule changes for compliance, Implement regular security rule audits"
+Firewall Misconfiguration,Misconfigured egress rules leading to data leakage or unauthorized external access,"Implement egress filtering rules to prevent data leakage, Review and adjust egress rules regularly, Monitor egress traffic for anomalies"
+Firewall Misconfiguration,Inconsistent rule implementation across multiple firewall devices,"Implement centralized firewall management and configuration templates, Regularly synchronize rules between devices, Test changes in a controlled environment"
+Firewall Misconfiguration,Insufficient logging and monitoring of firewall activity,"Enable detailed firewall logging and auditing, Implement centralized log management and analysis, Set up alerts for suspicious activity"
+Firewall Misconfiguration,Firewall rule conflicts causing traffic disruption,"Review and resolve rule conflicts in firewall policies, Test rule changes in a controlled environment, Implement rule validation and testing"
+Firewall Misconfiguration,Misconfigured application-specific rules causing application connectivity issues,"Validate application-specific rules with application teams, Monitor application behavior after rule changes, Implement rule testing and validation"
+Firewall Misconfiguration,Misconfigured firewall rules allowing unauthorized inbound access to critical systems,"Review and restrict inbound rules to necessary services, Implement default-deny policy for inbound traffic, Regularly audit and update rule sets"
+Firewall Misconfiguration,Overly permissive outbound rules causing data exfiltration or unauthorized communication,"Implement egress filtering and restrict outbound traffic, Monitor outbound traffic for anomalies, Use intrusion detection systems (IDS)"
+Firewall Misconfiguration,Inadequate rule prioritization causing policy conflicts and network issues,"Organize rule priority based on security requirements, Regularly review and adjust rule precedence, Document rule prioritization strategy"
+Firewall Misconfiguration,Unintended service disruptions due to rule changes without proper testing,"Implement change management procedures for rule modifications, Test rule changes in a controlled environment, Maintain rollback plans"
+Firewall Misconfiguration,Incorrect network address translation (NAT) configurations leading to communication problems,"Validate NAT configurations for correctness, Monitor NAT logs for errors and conflicts, Implement NAT rules for specific use cases"
+Firewall Misconfiguration,Unintentional firewall rule duplication causing ambiguity and conflicts,"Review and consolidate duplicate rules, Implement rule naming conventions for clarity, Test rule changes and ensure consistent deployment"
+Firewall Misconfiguration,Misconfigured firewall stateful inspection leading to connection failures,"Verify stateful inspection settings and enable necessary tracking, Test and adjust stateful inspection behavior, Monitor firewall session tables"
+Firewall Misconfiguration,Insecure firewall management access due to weak authentication and access controls,"Implement strong authentication mechanisms for management access, Use VPNs for secure remote management, Restrict access to authorized personnel"
+Firewall Misconfiguration,Improper load balancing configuration leading to uneven distribution of traffic,"Review and adjust load balancing algorithms and settings, Monitor traffic distribution and adjust as needed, Implement global server load balancing"
+Firewall Misconfiguration,Rule conflicts caused by overlapping IP ranges and network segments,"Review and adjust IP address and subnet configurations, Implement network segmentation and proper routing, Test rule changes for consistency"
+Link Saturation,Network link saturation leading to slow response times and degraded performance,"Monitor link traffic and usage patterns, Implement Quality of Service (QoS) rules to prioritize critical traffic, Upgrade link capacity if needed"
+Link Saturation,Saturated link causing delays in real-time applications like VoIP,"Implement QoS to ensure priority for real-time applications, Optimize codec settings for efficient voice transmission"
+Link Saturation,Congested link affecting critical data transfers and causing data loss,"Use data compression techniques to reduce bandwidth usage, Implement traffic shaping to control data flow"
+Link Saturation,Link saturation due to excessive broadcast traffic,"Implement broadcast storm controls to prevent unnecessary traffic, Segment network traffic to limit broadcast domains"
+Link Saturation,Link saturation causing increased latency for interactive applications,"Monitor latency metrics and identify latency sources, Optimize link configuration and routing"
+Link Saturation,Network link congestion affecting cloud application performance,"Use content delivery networks (CDNs) to cache content closer to users, Optimize cloud application configurations"
+Link Saturation,Saturated link leading to dropped packets and unreliable data transmission,"Implement traffic shaping to manage bandwidth usage, Monitor for packet loss and adjust network settings"
+Link Saturation,Link saturation impacting backup and data replication processes,"Schedule backups during off-peak hours to reduce link congestion, Implement deduplication and compression for data transfers"
+Link Saturation,Link congestion causing delays in remote access and VPN connections,"Implement QoS to prioritize VPN traffic, Optimize VPN configurations and authentication mechanisms"
+Link Saturation,Network link saturation affecting remote branch communication,"Implement WAN optimization techniques to reduce bandwidth usage, Consider using SD-WAN solutions to manage traffic"
+Link Saturation,High traffic saturating link to critical server causing slow response times,"Implement dedicated VLAN or segment for critical server traffic, Prioritize server traffic using QoS mechanisms"
+Link Saturation,Link congestion affecting video conferencing and multimedia streaming,"Implement QoS for real-time media traffic, Optimize video codec settings for efficient streaming"
+Link Saturation,Saturated link leading to intermittent connectivity for remote users,"Implement bandwidth management policies for remote users, Optimize VPN configurations and authentication mechanisms"
+Link Saturation,Network link saturation causing delays in large file transfers,"Implement traffic shaping to manage file transfer traffic, Use compression and optimization techniques for data transfers"
+Link Saturation,Saturated link impacting cloud service access and synchronization,"Use caching and content delivery networks (CDNs) to reduce cloud traffic, Optimize synchronization intervals"
+Link Saturation,Congested link causing delays in real-time data replication,"Implement traffic shaping for data replication traffic, Optimize replication intervals and compression techniques"
+Link Saturation,Network link saturation disrupting real-time online gaming,"Implement QoS to prioritize gaming traffic, Optimize gaming server locations for lower latency"
+Link Saturation,Link saturation affecting Point of Sale (POS) transactions,"Implement QoS for POS transaction traffic, Optimize transaction batch sizes and timings"
+Link Saturation,Congested link affecting critical system updates and patch distribution,"Implement scheduled updates during off-peak hours, Use content delivery networks (CDNs) for distributing updates"
+Link Saturation,Network link saturation impacting latency-sensitive IoT devices,"Implement dedicated VLAN or QoS for IoT device traffic, Optimize IoT device data transmission protocols"
+ISP Outage,Incident Complete loss of internet connectivity.,"Check for local network issues, such as router or modem problems."
+ISP Outage,Incident Complete loss of internet connectivity.,Contact the ISP's customer support to report the outage.
+ISP Outage,Incident Complete loss of internet connectivity.,Utilize mobile data or alternate ISPs if available.
+ISP Outage,Incident Complete loss of internet connectivity.,Monitor ISP status updates through social media or their website.
+ISP Outage,Incident Complete loss of internet connectivity.,Have a backup plan for critical online services.
+ISP Outage,Incident Intermittent connectivity issues.,Check for loose or damaged cables in the network setup.
+ISP Outage,Incident Intermittent connectivity issues.,Restart networking equipment like routers and modems.
+ISP Outage,Incident Intermittent connectivity issues.,Contact the ISP's technical support for troubleshooting assistance.
+ISP Outage,Incident Intermittent connectivity issues.,Monitor for patterns or specific times when the issue occurs.
+ISP Outage,Incident Intermittent connectivity issues.,Consider a secondary ISP connection for redundancy.
+ISP Outage,Incident Slow internet speeds during peak hours.,Test the network speed to verify the issue.
+ISP Outage,Incident Slow internet speeds during peak hours.,Contact the ISP to inquire about bandwidth limitations.
+ISP Outage,Incident Slow internet speeds during peak hours.,Implement Quality of Service (QoS) to prioritize critical traffic.
+ISP Outage,Incident Slow internet speeds during peak hours.,Consider upgrading to a higher-speed plan if available.
+ISP Outage,Incident Slow internet speeds during peak hours.,Schedule network-intensive tasks during off-peak hours.
+ISP Outage,Incident DNS resolution failures.,"Change DNS servers to a reliable, third-party service."
+ISP Outage,Incident DNS resolution failures.,Contact the ISP to report DNS server issues.
+ISP Outage,Incident DNS resolution failures.,Configure local DNS caching to reduce reliance on external servers.
+ISP Outage,Incident DNS resolution failures.,Implement secondary DNS server settings for redundancy.
+ISP Outage,Incident DNS resolution failures.,Monitor DNS performance and switch to a more reliable ISP if necessary.
+ISP Outage,Incident Packet Loss in Transit.,Test for packet loss using network diagnostic tools.
+ISP Outage,Incident Packet Loss in Transit.,Contact the ISP's technical support to investigate routing issues.
+ISP Outage,Incident Packet Loss in Transit.,Implement Quality of Service (QoS) to minimize packet loss impact.
+ISP Outage,Incident Packet Loss in Transit.,Monitor for persistent packet loss and alert the ISP.
+ISP Outage,Incident Packet Loss in Transit.,Consider using a VPN to route traffic through a different ISP or location.
+ISP Outage,Incident Multiple ISP outages in a week.,Investigate potential internal network issues causing outages.
+ISP Outage,Incident Multiple ISP outages in a week.,Contact the ISP to report frequent outages and request improvements.
+ISP Outage,Incident Multiple ISP outages in a week.,Implement network monitoring for quick outage detection.
+ISP Outage,Incident Multiple ISP outages in a week.,Have a secondary ISP connection for failover.
+ISP Outage,Incident Multiple ISP outages in a week.,Consider switching to a more reliable ISP if frequent outages persist.
+ISP Outage,Incident Limited connectivity to specific websites.,Test access to the affected websites from different devices.
+ISP Outage,Incident Limited connectivity to specific websites.,Contact the ISP to check for potential routing issues.
+ISP Outage,Incident Limited connectivity to specific websites.,Use a Virtual Private Network (VPN) to bypass connectivity problems.
+ISP Outage,Incident Limited connectivity to specific websites.,Flush DNS caches to refresh network routes.
+ISP Outage,Incident Limited connectivity to specific websites.,Investigate content filtering or firewall rules that may block access.
+ISP Outage,Incident Frequent IP address changes by the ISP.,Contact the ISP to understand the reason for frequent IP changes.
+ISP Outage,Incident Frequent IP address changes by the ISP.,Configure Dynamic DNS (DDNS) to adapt to IP changes.
+ISP Outage,Incident Frequent IP address changes by the ISP.,Implement VPNs or tunneling to maintain consistent connectivity.
+ISP Outage,Incident Frequent IP address changes by the ISP.,Configure devices to automatically update IP settings.
+ISP Outage,Incident Frequent IP address changes by the ISP.,Consider a static IP address from the ISP for stability.
+ISP Outage,Incident Regional ISP outage affecting multiple sites.,Check for local network issues before contacting the ISP.
+ISP Outage,Incident Regional ISP outage affecting multiple sites.,Contact the ISP for updates on the outage and expected resolution time.
+ISP Outage,Incident Regional ISP outage affecting multiple sites.,Redirect critical traffic through alternative ISP connections.
+ISP Outage,Incident Regional ISP outage affecting multiple sites.,Coordinate with other affected organizations for shared resources.
+ISP Outage,Incident Regional ISP outage affecting multiple sites.,Document the incident for future reference and contingency planning.
+ISP Outage,ISP maintenance notification for network upgrades.,Review the maintenance notification for details and schedules.
+ISP Outage,ISP maintenance notification for network upgrades.,Notify relevant teams and stakeholders about potential downtime.
+ISP Outage,ISP maintenance notification for network upgrades.,Plan for backup connectivity or failover during the maintenance window.
+ISP Outage,ISP maintenance notification for network upgrades.,Test network services after maintenance to ensure proper functionality.
+ISP Outage,ISP maintenance notification for network upgrades.,Provide feedback to the ISP about the impact and effectiveness of the maintenance.
+Configuration Drift,Inconsistent firewall rules between redundant devices causing communication disruptions,"Implement automated configuration management tools, Regularly compare and synchronize configurations, Implement version control for configurations"
+Configuration Drift,Configuration changes lead to network equipment instability and frequent reboots,"Implement change management procedures for configurations, Monitor device logs for errors and instability, Test changes in a controlled environment"
+Configuration Drift,Variations in VLAN configurations causing connectivity issues between switches,"Use templates for consistent VLAN configurations, Regularly audit and verify VLAN settings, Implement network segmentation and access controls"
+Configuration Drift,Discrepancies in routing tables across routers leading to routing loops and packet loss,"Implement routing protocol authentication and filters, Regularly review and compare routing tables, Implement BGP route dampening"
+Configuration Drift,Inconsistent Quality of Service (QoS) settings causing unpredictable application performance,"Implement QoS policies based on application requirements, Monitor and adjust QoS policies regularly, Prioritize critical applications"
+Configuration Drift,Divergent wireless access point settings leading to inconsistent coverage and connectivity issues,"Implement centralized management for wireless devices, Regularly update and synchronize wireless configurations, Perform wireless site surveys"
+Configuration Drift,Changes in DNS configurations leading to name resolution failures and network service disruptions,"Implement DNS configuration backup and versioning, Monitor DNS settings for changes and inconsistencies, Use redundant DNS servers"
+Configuration Drift,Configuration drift in load balancers causing uneven distribution of traffic,"Implement automated load balancer configuration tools, Regularly review and compare load balancer settings, Implement global server load balancing"
+Configuration Drift,Variations in switch port configurations causing inconsistent network access,"Implement network automation for switch port configurations, Use port security mechanisms to enforce standards, Regularly audit port configurations"
+Configuration Drift,Inconsistent encryption settings leading to security vulnerabilities and non-compliance,"Implement encryption policies and standards documentation, Regularly audit and validate encryption configurations, Use encryption management tools"
+   ,Inconsistent Access Control Lists (ACLs) leading to unauthorized access to network resources,"Implement centralized ACL management and enforcement, Regularly review and compare ACL settings, Monitor ACL changes and access logs"
+Configuration Drift,Variations in Network Time Protocol (NTP) settings causing time synchronization issues,"Implement centralized NTP management and synchronization, Regularly audit NTP settings and configurations, Use redundant NTP servers"
+Configuration Drift,Divergent DHCP configurations leading to IP address conflicts and connectivity problems,"Implement DHCP failover and redundancy mechanisms, Regularly audit and validate DHCP settings, Use reserved IP addresses for critical devices"
+Configuration Drift,Inconsistent VLAN settings in virtualized environments causing VM communication issues,"Implement network automation for virtual network configurations, Regularly review and synchronize VLAN settings, Use VLAN tagging consistently"
+Configuration Drift,Changes in SSL certificate configurations causing web server security vulnerabilities,"Implement certificate management and renewal procedures, Regularly audit SSL certificate settings and expiration, Use strong encryption algorithms"
+Configuration Drift,Inconsistent NAT configurations leading to communication problems between internal and external networks,"Implement NAT configuration templates and automation, Regularly audit and compare NAT settings, Monitor NAT logs for inconsistencies"
+Configuration Drift,Divergent IP subnet configurations causing routing issues and communication breakdowns,"Implement IP addressing standards and documentation, Regularly audit and validate IP subnet configurations, Use IP address management (IPAM) tools"
+Configuration Drift,Variations in proxy server settings causing internet access problems and slow browsing,"Implement proxy server configuration management and automation, Regularly review and update proxy settings, Monitor proxy server performance"
+Configuration Drift,Changes in encryption protocols leading to compatibility issues and communication failures,"Implement encryption protocol standards and guidelines, Regularly review and update encryption settings, Test protocol changes in a controlled environment"
+Configuration Drift,Inconsistent network device naming conventions causing confusion and errors in troubleshooting,"Implement standardized network device naming conventions, Regularly enforce naming conventions, Educate personnel about naming standards"
+Malware Outbreak,Incident Ransomware infection encrypting critical data.,Isolate affected devices from the network to prevent further encryption.
+Malware Outbreak,Incident Ransomware infection encrypting critical data.,Identify the ransomware variant and assess the extent of the infection.
+Malware Outbreak,Incident Ransomware infection encrypting critical data.,Restore affected systems from offline backups if available.
+Malware Outbreak,Incident Ransomware infection encrypting critical data.,Report the incident to law enforcement and cybersecurity agencies.
+Malware Outbreak,Incident Ransomware infection encrypting critical data.,Enhance endpoint security and user training to prevent future infections.
+Malware Outbreak,Incident Phishing campaign spreading malware via email.,Isolate compromised devices and disconnect them from the network.
+Malware Outbreak,Incident Phishing campaign spreading malware via email.,Identify the malicious email campaign and its victims.
+Malware Outbreak,Incident Phishing campaign spreading malware via email.,Educate employees on recognizing phishing attempts and suspicious emails.
+Malware Outbreak,Incident Phishing campaign spreading malware via email.,Implement email filtering and scanning solutions to detect malicious content.
+Malware Outbreak,Incident Phishing campaign spreading malware via email.,Monitor network traffic for unusual activity and malware communication.
+Malware Outbreak,Incident Trojan infection stealing sensitive customer data.,Isolate infected systems to prevent data exfiltration.
+Malware Outbreak,Incident Trojan infection stealing sensitive customer data.,Identify the Trojan's communication channels and data targets.
+Malware Outbreak,Incident Trojan infection stealing sensitive customer data.,Notify affected customers and regulatory authorities of the data breach.
+Malware Outbreak,Incident Trojan infection stealing sensitive customer data.,Implement multi-factor authentication and enhanced security measures.
+Malware Outbreak,Incident Trojan infection stealing sensitive customer data.,Conduct a post-incident review to identify security gaps and improve defenses.
+Malware Outbreak,Incident Malware spreading via compromised software updates.,Identify the source of the compromised software updates and halt distribution.
+Malware Outbreak,Incident Malware spreading via compromised software updates.,Analyze the malware strain and its impact on affected systems.
+Malware Outbreak,Incident Malware spreading via compromised software updates.,Notify users and organizations affected by the compromised updates.
+Malware Outbreak,Incident Malware spreading via compromised software updates.,Strengthen the security of software development and update distribution processes.
+Malware Outbreak,Incident Malware spreading via compromised software updates.,Enhance endpoint protection to detect and prevent future attacks via updates.
+Malware Outbreak,Incident Malware outbreak in the organization's remote workforce.,Isolate infected remote devices from the corporate network.
+Malware Outbreak,Incident Malware outbreak in the organization's remote workforce.,Identify the entry point of the malware into the remote workforce.
+Malware Outbreak,Incident Malware outbreak in the organization's remote workforce.,Notify remote employees about the outbreak and provide guidance.
+Malware Outbreak,Incident Malware outbreak in the organization's remote workforce.,Implement remote endpoint security measures and monitoring.
+Malware Outbreak,Incident Malware outbreak in the organization's remote workforce.,Review and update remote work policies and security practices.
+Malware Outbreak,Incident Malware exploiting unpatched vulnerabilities in systems.,Immediately apply security patches and updates to vulnerable systems.
+Malware Outbreak,Incident Malware exploiting unpatched vulnerabilities in systems.,Conduct vulnerability assessments to identify and remediate other weaknesses.
+Malware Outbreak,Incident Malware exploiting unpatched vulnerabilities in systems.,Isolate and analyze the malware to understand its capabilities and origins.
+Malware Outbreak,Incident Malware exploiting unpatched vulnerabilities in systems.,Implement intrusion detection and prevention systems to detect similar attacks.
+Malware Outbreak,Incident Malware exploiting unpatched vulnerabilities in systems.,Establish a proactive patch management policy and schedule regular updates.
+Malware Outbreak,Incident Drive-by-download malware infections from compromised websites.,Identify and block access to compromised websites distributing malware.
+Malware Outbreak,Incident Drive-by-download malware infections from compromised websites.,Inform users about safe web browsing practices and potential threats.
+Malware Outbreak,Incident Drive-by-download malware infections from compromised websites.,Implement web filtering and content security solutions to block malicious content.
+Malware Outbreak,Incident Drive-by-download malware infections from compromised websites.,Analyze and classify the malware to understand its behavior and risks.
+Malware Outbreak,Incident Drive-by-download malware infections from compromised websites.,Regularly update web browsers and plugins to patch known vulnerabilities.
+Malware Outbreak,Incident Malware infiltrating via malicious email attachments.,Quarantine and scan email attachments for malware before delivery.
+Malware Outbreak,Incident Malware infiltrating via malicious email attachments.,"Train employees on email security, including identifying suspicious attachments."
+Malware Outbreak,Incident Malware infiltrating via malicious email attachments.,Deploy advanced email security solutions to filter out malicious content.
+Malware Outbreak,Incident Malware infiltrating via malicious email attachments.,Investigate the source and distribution of the malicious email attachments.
+Malware Outbreak,Incident Malware infiltrating via malicious email attachments.,Continuously update and maintain antivirus and anti-malware software.
+Malware Outbreak,Incident Malware outbreak due to compromised third-party software.,Identify the compromised third-party software and remove it from systems.
+Malware Outbreak,Incident Malware outbreak due to compromised third-party software.,Implement stricter controls and auditing for third-party software installations.
+Malware Outbreak,Incident Malware outbreak due to compromised third-party software.,Communicate with the software vendor for security updates and patches.
+Malware Outbreak,Incident Malware outbreak due to compromised third-party software.,Analyze the malware to understand its impact and potential data exposure.
+Malware Outbreak,Incident Malware outbreak due to compromised third-party software.,Regularly review and assess the security of third-party software used.
+Malware Outbreak,Malware outbreak caused by an insider threat.,Identify the insider threat and revoke their access to the network.
+Malware Outbreak,Malware outbreak caused by an insider threat.,Investigate the motive and extent of the insider's actions.
+Malware Outbreak,Malware outbreak caused by an insider threat.,"Notify affected parties, including clients and partners, about the incident."
+Malware Outbreak,Malware outbreak caused by an insider threat.,Implement stricter access controls and monitoring for sensitive data.
+Malware Outbreak,Malware outbreak caused by an insider threat.,Conduct employee training and awareness programs to prevent future insider threats.
