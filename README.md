@@ -63,34 +63,6 @@ Tools we used:
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-
-### Installation
-
-* cmd
-  ```sh
-  pip install -r requirements.txt
-  ```
-## Usage
-
-1) The model we have used can be trained by running the cells in our Jupyter Notebook "./Network_Hotspot_Training.ipynb"
-2) Once the model is trained run the chatbot interface with the following command in terminal
-* cmd
-  ```sh
-  streamlit run main.py
-  ```
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
 - [x] Train Model
 - [x] Build a ChatBot Interface
 - [ ] Integrate LLM
@@ -100,4 +72,4 @@ To get a local copy up and running follow these simple example steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## DEMO
-<video src="./videos/Recording.mp4">
+![Recording](./videos/Recording.mp4)
